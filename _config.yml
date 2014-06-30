@@ -1,0 +1,53 @@
+# Dependencies
+markdown:	kramdown
+highlighter:	pygments
+language: zh-CN
+
+# Permalinks
+permalink:	/blog/:title
+safe: true
+auto: true
+
+# Setup
+title:		车友⑨课
+tagline:	'主站'
+description:	'车友⑨课主网站'
+url:		http://camporez.com
+commentsystem:	disqus
+disqus:		example
+
+author:
+  name:		'囧字号'
+  url:		http://www.acfun.com/u/52710.aspx
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	github
+    url:	https://github.com/oslvbo/car9.club
+    desc:	在Github上查看源码
+
+  - icon:	googleplus-alt
+    url:	https://google.com/+IanCamporezBrunelli
+    desc:	在Google+上关注作者
+
+  - icon:	feed
+    url:	https://oslvbo.github.io/car9.club/atom.xml
+    desc:	订阅源
+
+menu:
+  - title:	主页
+    url:	/
+
+  - title:	关于
+    url:	/about
+
+copyright:
+  author:	车友⑨课
+  url:		http://qun.qzone.qq.com/group#!/222976478/home
+  type_title:	署名-非商业性使用
+  type_url:	http://creativecommons.org/licenses/by-nc/4.0
